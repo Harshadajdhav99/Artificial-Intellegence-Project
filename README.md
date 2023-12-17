@@ -10,6 +10,7 @@
 This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
 ### Changes Done
 In the reverie/backend_server/persona/prompt_template/gpt_structure.py file inside get_embeddings() function to debug the output for each request, I added a try-catch block and splited the results.
+![MicrosoftTeams-image (3)](https://github.com/Harshadajdhav99/Artificial-Intellegence-Project/assets/143147609/aff44fbb-75fd-4dfb-9fec-ee29e2fc2629)
 
 ## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Isabella_Rodriguez.png" alt="Generative Isabella">   Setting Up the Environment 
 To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
